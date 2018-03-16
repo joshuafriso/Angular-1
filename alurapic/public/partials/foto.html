@@ -8,7 +8,7 @@
     <div class="col-md-6">
         <div class="form-group">
             <label>Título</label>
-            <input name="titulo" class="form-control" ng-model="foto.titulo" required ng-maxlength="20">    
+            <input name="titulo" class="form-control" ng-model="foto.titulo" required ng-maxlength="20">
             <span ng-show="formulario.$submitted && formulario.titulo.$error.required" class="form-control alert-danger">
             	Título obrigatório
             </span>
@@ -43,7 +43,7 @@
         <button type="submit" class="btn btn-primary" ng-disabled="formulario.$invalid">
             Salvar
         </button>
-         <a href="/" class="btn btn-primary">Voltar</a>
+         <a href="/" meu-focus class="btn btn-primary">Voltar</a>
         <hr>
     </div>
     <div class="col-md-6">
